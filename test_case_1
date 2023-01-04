@@ -1,0 +1,259 @@
+{
+  "id": "b90e4117-9823-49fe-a5a4-91f70b61fba6",
+  "version": "2.0",
+  "name": "Practice_demo_1",
+  "url": "https://rahulshettyacademy.com",
+  "tests": [{
+    "id": "56dfda3a-3946-4c39-9c4e-a1c7f88edc83",
+    "name": "First_demo",
+    "commands": [{
+      "id": "7bb487db-db91-473e-aada-03f0942aa47b",
+      "comment": "",
+      "command": "open",
+      "target": "/AutomationPractice/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "632b5376-5740-42ed-b8dd-aef9f6f7f585",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df16edd7-1d13-4723-a33e-fad0ce36ad92",
+      "comment": "",
+      "command": "click",
+      "target": "name=radioButton",
+      "targets": [
+        ["name=radioButton", "name"],
+        ["css=label:nth-child(2) > .radioButton", "css:finder"],
+        ["xpath=//input[@name='radioButton']", "xpath:attributes"],
+        ["xpath=//div[@id='radio-btn-example']/fieldset/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a898f4-4d62-4e44-95dc-5853567d84fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete",
+      "targets": [
+        ["id=autocomplete", "id"],
+        ["css=#autocomplete", "css:finder"],
+        ["xpath=//input[@id='autocomplete']", "xpath:attributes"],
+        ["xpath=//div[@id='select-class-example']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b8ce57-d2c7-477d-b457-7132feed5ae5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-39",
+      "targets": [
+        ["id=ui-id-39", "id"],
+        ["css=#ui-id-39", "css:finder"],
+        ["xpath=//div[@id='ui-id-39']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c09fa6c2-e1d9-4972-92a4-c576174b2ae4",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete",
+      "targets": [
+        ["id=autocomplete", "id"],
+        ["css=#autocomplete", "css:finder"],
+        ["xpath=//input[@id='autocomplete']", "xpath:attributes"],
+        ["xpath=//div[@id='select-class-example']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": "India"
+    }, {
+      "id": "ad6e84ce-0f8a-4007-a11e-0a3d375bc6b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdown-class-example",
+      "targets": [
+        ["id=dropdown-class-example", "id"],
+        ["name=dropdown-class-example", "name"],
+        ["css=#dropdown-class-example", "css:finder"],
+        ["xpath=//select[@id='dropdown-class-example']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc679671-dcb5-4c50-8d03-efbcb53d1ee4",
+      "comment": "",
+      "command": "select",
+      "target": "id=dropdown-class-example",
+      "targets": [],
+      "value": "label=Option2"
+    }, {
+      "id": "925cc3db-ec9e-4804-afcb-b1002284dbe0",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkBoxOption2",
+      "targets": [
+        ["id=checkBoxOption2", "id"],
+        ["name=checkBoxOption2", "name"],
+        ["css=#checkBoxOption2", "css:finder"],
+        ["xpath=//input[@id='checkBoxOption2']", "xpath:attributes"],
+        ["xpath=//div[@id='checkbox-example']/fieldset/label[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/fieldset/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "699c4aa9-615e-4b6d-bc9e-2798ef7277bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=enter-name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61ed3f61-d244-4e60-b46a-ba879ffa3d56",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=enter-name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/fieldset/input", "xpath:position"]
+      ],
+      "value": "Pankaj"
+    }, {
+      "id": "46f09c22-d478-4035-8fed-f665c3c5b3d1",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dee24c1f-5dfb-4535-9da9-119569596170",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmbtn",
+      "targets": [
+        ["id=confirmbtn", "id"],
+        ["css=#confirmbtn", "css:finder"],
+        ["xpath=//input[@id='confirmbtn']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badb4753-d236-42ae-920d-bcc88f193881",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Hello Pankaj, Are you sure you want to confirm?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc59bfae-ca3c-4bd3-aded-b1656d018728",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2df2906c-af75-449a-9ac8-096f9e6fe60e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "a48a7c79-526e-46df-a837-df5065ec6381",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Courses",
+      "targets": [
+        ["linkText=Courses", "linkText"],
+        ["css=.nav-outer .navigation > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Courses')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://courses.rahulshettyacademy.com/courses')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e412af97-25e3-42d0-8c27-ff2429318485",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "63c35f12-8762-4c81-a718-1ae36a8ac10e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Top",
+      "targets": [
+        ["linkText=Top", "linkText"],
+        ["css=.mouse-hover-content > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Top')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#top')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Top')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "881cd00a-aeb2-448a-9dfa-cc81ae2ba85d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Practice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9736064a-48c1-453c-97d8-e6140b6c3b64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6191dd0b-28a5-42d6-8c77-6983c3e99323",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .btn",
+      "targets": [
+        ["css=a > .btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c78475a4-10d9-4fcf-9e91-8f1cb2688a41",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["56dfda3a-3946-4c39-9c4e-a1c7f88edc83"]
+  }],
+  "urls": ["https://rahulshettyacademy.com/"],
+  "plugins": []
+}
